@@ -1,0 +1,14 @@
+[
+{
+    "name" : "kịch nói",
+    "isActive" : true
+},
+{
+    "name" : "nhạc kịch",
+    "isActive" : true
+},
+{
+    "name" : "kịch thiếu nhi",
+    "isActive" : true
+}
+]

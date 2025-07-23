@@ -1,0 +1,31 @@
+[
+{
+    "code": "AHJUY25",
+    "title" : "Ai Kế Tiếp",
+    "img": "aiketiep_pts.png",
+    "description": "Tác giả & Đạo diễn: Nguyễn Phạm Hoàng Hải  Cố vấn nghệ thuật: NSND Hồng Vân - NS Hoàng Sơn  Giám đốc sản xuất: Lê Tuấn Anh  Âm nhạc: Nguyễn Phạm Hoàng Hải  Thiết kế sân khấu: Công ty VTTM  Diễn viên: NSND HỒNG VÂN, NS HOÀNG SƠN, LÊ NAM, HOÀNG HẢI, LẠC HOÀNG LONG, TUẤN DŨNG, LÊ LỘC, KHÔI NGUYÊN, VÕ ĐIỀN GIA HUY, THÁI SƠN, THANH NGÂN, HỒNG ANH, MỸ MỸ.",
+    "content": "Trân trọng giới thiệu vở kịch Ai Kế Tiếp.  Nội dung vở kịch xoay quanh cuộc tra khảo của một viên cảnh sát với nghi phạm duy nhất có mặt ở hiện trường nơi xảy ra vụ án bí ẩn. Trong quá trình tra khảo thì bí mật của những con người bị ma túy sai khiến dần được hé lộ...",
+    "isActive": true,
+    "typeIds": ["688096324c320d9816b0a20f"]
+},
+{
+    "code": "BKJUY25",
+    "title" : "Bông Cánh Cò",
+    "img": "bongcanhco_pts.png",
+    "description": "Nhạc kịch Bông Cánh Cò - Tác giả: Cố nhạc sĩ – NSƯT Bắc Sơn - Chuyển thể nhạc kịch và đạo diễn: Lê Nguyễn Tuấn Anh - Cố vấn nghệ thuật: NSND Hồng Vân - Giám đốc âm nhạc: Nhạc sĩ Minh Vy - Hoà âm: Duệ Hùng - Minh Vy - Band nhạc: Kim Lợi - Giám đốc sản xuất: Lê Tuấn Anh - Âm nhạc: Duy Chương - Thiết kế sân khấu: Trần Đông – Văn Xinh - Âm thanh: Hoàng Nam - Ánh sáng: Dũng Râu - Chỉ huy biểu diễn: Kim Ngân – Kim Hân NS Thanh Thuỷ vai bà Ba Cải NS Hoàng Sơn vai ông Hai Mạnh Ca sỹ Cẩm Ly vai Tư Liễu Minh Luân vai Hai Nông",
+    "content": "Trân trọng giới thiệu vở kịch Bông Cánh Cò. Nội dung vở kịch xoay quanh tình cảm gia đình đầy cảm xúc. Những tình tiết éo le trong gia đình của Tư Liễu sẽ mang lại những cảm xúc sâu lắng sẽ chạm đến trái tim quý khán giả.",
+    "isActive": true,
+    "typeIds": ["688096324c320d9816b0a20f", "688096324c320d9816b0a210"]
+},
+{
+    "code": "CPJUY25",
+    "title" : "Tình Sử Thanh Long",
+    "img": "tinhsuthanglong_pts.png",
+    "description": "Tác giả: Lưu Quang Vũ Biên Kịch & Đạo diễn: Hoàng Hải Cố vấn nghệ thuật: NSND Hồng Vân - NSƯT Kim Tử Long - NS Hoàng Sơn Diễn viên: NSND Hồng Vân, NSƯT Kim Tử Long, NS Hoàng Sơn, Trinh Trinh, Bình Tinh, Minh Luân, Thanh Duy, Xuân Nghị, Hiếu Hiền, Gia Bảo, Hoàng Khôi, Hiếu Nguyễn, Tiêu Minh Phụng, Kha Uy, Khôi Nguyên, Hoàng Yến",
+    "content": "Phóng tác từ tác phẩm Công chúa Ngọc Hân của cố soạn giả Lưu Quang Vũ, vở nhạc kịch Tình Sử Thăng Long vẽ nên câu chuyện tình đầy chất thơ của vị anh hùng Nguyễn Huệ và nàng công chúa tài hoa Lê Ngọc Hân, giữa những mưu toan đen tối, những rối ren thời cuộc và những trận chiến tranh đoạt quyền bính, thay triều đổi đại. Dự án nghệ thuật đặc biệt này là sự kết hợp hiếm hoi và đầy bất ngờ giữa hai nhà sản xuất lớn trong ngành sân khấu Việt Nam. Là sự tiếp lửa của những tên tuổi gạo cội để thế hệ trẻ tiếp nối kể lại những câu chuyện lịch sử bằng phong cách của chính những người trẻ, đầy sáng tạo nhưng cũng không kém phần hùng tráng.",
+    "isActive": true,
+    "typeIds": ["688096324c320d9816b0a20f"]
+}
+
+
+]
