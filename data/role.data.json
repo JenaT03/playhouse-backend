@@ -1,0 +1,16 @@
+[
+{
+    "code": "21HGHUH",
+    "name": "Nhân viên bán vé",
+    "group": "admin",
+    "isActive": true,
+    "perIds": ["6881f0ff8b50b78f44d04990", "6881f0ff8b50b78f44d04991", "6881f0ff8b50b78f44d04992"]
+},
+{
+    "code": "21HGHUH",
+    "name": "Người dùng",
+    "group": "user",
+    "isActive": true,
+    "perIds": ["6881f0ff8b50b78f44d049a6", "6881f0ff8b50b78f44d049a7"]
+}
+]

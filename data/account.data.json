@@ -1,0 +1,18 @@
+[
+{
+    "phone": "0389876787",
+    "email": "nhi@gmail.com",
+    "password": "123",
+    "avatar": "avatar1.png",
+    "isActive": true,
+    "roleIds": ["6881f914f8dda56c0264ce88"]
+},
+{
+    "phone": "0389876787",
+    "email": "nhi@gmail.com",
+    "password": "1234",
+    "avatar": "avatar1.png",
+    "isActive": true,
+    "roleIds": ["6881f914f8dda56c0264ce87"]
+}
+]

@@ -1,0 +1,130 @@
+[
+{
+    "name" : "Xem thống kê",
+    "group" : "Quản lý chung"
+},
+{
+    "name" : "Quản lý poster",
+    "group" : "Quản lý chung"
+},
+{
+    "name" : "Bán vé",
+    "group" : "Quản lý vé"
+},
+{
+    "name" : "Duyệt vé",
+    "group" : "Quản lý vé"
+},
+{
+    "name" : "Xem danh sách vé",
+    "group" : "Quản lý vé"
+},
+{
+    "name" : "Khóa vé",
+    "group" : "Quản lý vé"
+},
+{
+    "name" : "Xem danh sách vỡ diễn",
+    "group" : "Quản lý vỡ diễn"
+},
+{
+    "name" : "Thêm vỡ diễn",
+    "group" : "Quản lý vỡ diễn"
+},
+{
+    "name" : "Chỉnh sửa vỡ diễn",
+    "group" : "Quản lý vỡ diễn"
+},
+{
+    "name" : "Xóa vỡ diễn",
+    "group" : "Quản lý vỡ diễn"
+},
+{
+    "name" : "Xem danh sách suất diễn",
+    "group" : "Quản lý suất diễn"
+},
+{
+    "name" : "Thêm suất diễn",
+    "group" : "Quản lý suất diễn"
+},
+{
+    "name" : "Chỉnh sửa suất diễn",
+    "group" : "Quản lý suất diễn"
+},
+{
+    "name" : "Xóa suất diễn",
+    "group" : "Quản lý suất diễn"
+},
+{
+    "name" : "Xem danh sách thể loại",
+    "group" : "Quản lý thể loại"
+},
+{
+    "name" : "Thêm thể loại",
+    "group" : "Quản lý thể loại"
+},
+{
+    "name" : "Chỉnh sửa thể loại",
+    "group" : "Quản lý thể loại"
+},
+{
+    "name" : "Xóa thể loại",
+    "group" : "Quản lý thể loại"
+},
+{
+    "name" : "Khóa ghế",
+    "group" : "Quản lý sân khấu"
+},
+{
+    "name" : "Xem danh sách nhân sự",
+    "group" : "Quản lý nhân sự"
+},
+{
+    "name" : "Thêm nhân sự",
+    "group" : "Quản lý nhân sự"
+},
+{
+    "name" : "Chỉnh sửa nhân sự",
+    "group" : "Quản lý nhân sự"
+},
+{
+    "name" : "Xóa nhân sự",
+    "group" : "Quản lý nhân sự"
+},
+{
+    "name" : "Xem danh sách tài khoản",
+    "group" : "Quản lý tài khoản"
+},
+{
+    "name" : "Thêm tài khoản",
+    "group" : "Quản lý tài khoản"
+},
+{
+    "name" : "Chỉnh sửa tài khoản",
+    "group" : "Quản lý tài khoản"
+},
+{
+    "name" : "Khóa tài khoản",
+    "group" : "Quản lý tài khoản"
+},
+{
+    "name" : "Xóa tài khoản",
+    "group" : "Quản lý tài khoản"
+},
+{
+    "name" : "Xem danh sách vai trò",
+    "group" : "Quản lý vai trò"
+},
+{
+    "name" : "Thêm vai trò",
+    "group" : "Quản lý vai trò"
+},
+{
+    "name" : "Chỉnh sửa vai trò",
+    "group" : "Quản lý vai trò"
+},
+{
+    "name" : "Xóa vai trò",
+    "group" : "Quản lý vai trò"
+}
+]
