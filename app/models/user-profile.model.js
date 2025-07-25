@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 const profileSchema = new mongoose.Schema({
-  code: String,
   name: String,
   address: String,
   gender: String,

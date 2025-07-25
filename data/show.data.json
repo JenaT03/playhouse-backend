@@ -1,0 +1,41 @@
+[
+{
+    "code": "SH00001",
+    "date": "2025-10-01T00:00:00Z",
+    "starttime": "19:00",
+    "endtime": "21:00",
+    "isActive": true,
+    "price": {
+        "vip": "350000",
+        "standard": "300000",
+        "balcony": "200000"
+    },
+    "playId": "6880996d81606ab6bdce4a12"
+},
+{
+    "code": "SH00002",
+    "date": "2025-10-01T00:00:00Z",
+    "starttime": "19:00",
+    "endtime": "21:00",
+    "isActive": true,
+    "price": {
+        "vip": "350000",
+        "standard": "300000",
+        "balcony": "200000"
+    },
+    "playId": "6880996d81606ab6bdce4a13"
+},
+{
+    "code": "SH00003",
+    "date": "2025-10-01T00:00:00Z",
+    "starttime": "19:00",
+    "endtime": "21:00",
+    "isActive": true,
+    "price": {
+        "vip": "350000",
+        "standard": "300000",
+        "balcony": "200000"
+    },
+    "playId": "6880996d81606ab6bdce4a14"
+}
+]

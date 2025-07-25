@@ -1,0 +1,32 @@
+[
+{
+    "code": "23HUHIH",
+    "status": "unused",
+    "price" : "200000",
+    "qr": "https://example.com/qr/23HUHIH",
+    "buyer": "6883128795717ad397568064",
+    "soldBy": "6883127d442bb602a0cca362",
+    "isActive": true
+},
+{
+    "code": "24HUHIH",
+    "status": "used",
+    "price" : "200000",
+    "qr": "https://example.com/qr/23HUHIH",
+    "soldBy": "6883127d442bb602a0cca362",
+    "isActive": true,
+    "guestInfo": {
+        "name": "Nguyễn Văn A",
+        "phone": "0123456789"
+    }
+},
+{
+    "code": "27OUHIH",
+    "status": "expried",
+    "price" : "200000",
+    "qr": "https://example.com/qr/23HUHIH",
+    "buyer": "6883128795717ad397568064",
+    "soldBy": "688240c0177718c71d35756b",
+    "isActive": true
+}
+]
