@@ -3,23 +3,22 @@ const ApiError = require("../api-error");
 const Type = require("../models/type.model.js");
 
 exports.createType = async (req, res, next) => {
-  if (!req.body?.name) {
+  const { name, isActive } = req.body;
+  if (!name) {
     return next(new ApiError(400, "Tên thể loại không thể để trống!"));
   }
 
-  let { name, isActive } = req.body;
-
   try {
-    let type = await Type.create({ name, isActive });
+    const type = await Type.create({ name, isActive });
     return res.send(type);
   } catch (err) {
     return next(new ApiError(500, "Lỗi khi tạo thể loại: " + err.message));
   }
 };
 
-exports.getAllTypes = async (req, res, next) => {
+exports.getAllTypes = async (res, next) => {
   try {
-    let types = await Type.find({});
+    const types = await Type.find({});
     return res.send(types);
   } catch (err) {
     return next(
@@ -34,7 +33,7 @@ exports.getTypeById = async (req, res, next) => {
   }
 
   try {
-    let type = await Type.findById(req.params.id);
+    const type = await Type.findById(req.params.id);
     if (!type) {
       return next(new ApiError(404, "Không tìm thấy thể loại với ID này!"));
     }
@@ -45,18 +44,17 @@ exports.getTypeById = async (req, res, next) => {
 };
 
 exports.updateType = async (req, res, next) => {
+  const { name, isActive } = req.body;
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     return next(new ApiError(400, "ID thể loại không hợp lệ!"));
   }
 
-  if (!req.body?.name) {
+  if (!name) {
     return next(new ApiError(400, "Tên thể loại không thể để trống!"));
   }
 
-  let { name, isActive } = req.body;
-
   try {
-    let type = await Type.findByIdAndUpdate(
+    const type = await Type.findByIdAndUpdate(
       req.params.id,
       { name, isActive },
       { new: true }
@@ -70,13 +68,13 @@ exports.updateType = async (req, res, next) => {
   }
 };
 
-exports.deleteType = async (req, res, next) => {
+exports.deconsteType = async (req, res, next) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     return next(new ApiError(400, "ID thể loại không hợp lệ!"));
   }
 
   try {
-    let type = await Type.findByIdAndDelete(req.params.id);
+    const type = await Type.findByIdAndDeconste(req.params.id);
     if (!type) {
       return next(new ApiError(404, "Không tìm thấy thể loại với ID này!"));
     }

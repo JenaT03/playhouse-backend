@@ -1,11 +1,26 @@
 const mongoose = require("mongoose");
 
 const actorSchema = new mongoose.Schema({
-  code: String,
-  description: String,
-  quote: String,
-  isSuper: Boolean,
-  upId: { type: mongoose.Schema.Types.ObjectId, ref: "UserProfile" },
+  code: {
+    type: String,
+    unique: true,
+    required: true,
+  },
+  description: {
+    type: String,
+  },
+  quote: {
+    type: String,
+  },
+  isSuper: {
+    type: Boolean,
+    default: false,
+  },
+  upId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "UserProfile",
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Actor", actorSchema);
