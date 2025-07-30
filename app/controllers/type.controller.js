@@ -16,7 +16,7 @@ exports.createType = async (req, res, next) => {
   }
 };
 
-exports.getAllTypes = async (res, next) => {
+exports.getAllTypes = async (req, res, next) => {
   try {
     const types = await Type.find({});
     return res.send(types);
@@ -68,13 +68,13 @@ exports.updateType = async (req, res, next) => {
   }
 };
 
-exports.deconsteType = async (req, res, next) => {
+exports.deleteType = async (req, res, next) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     return next(new ApiError(400, "ID thể loại không hợp lệ!"));
   }
 
   try {
-    const type = await Type.findByIdAndDeconste(req.params.id);
+    const type = await Type.findByIdAndDelete(req.params.id);
     if (!type) {
       return next(new ApiError(404, "Không tìm thấy thể loại với ID này!"));
     }

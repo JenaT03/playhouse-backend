@@ -1,13 +1,11 @@
-//định nghĩa lớp trợ giúp kết nối đến mng
-const { MongoClient } = require("mongodb"); // lấy đối tượng mongoclient từ lib mongo
+const mongoose = require("mongoose");
 
 class MongoDB {
-  static connect = async (uri) => {
-    // phương thức async kết nối đến mongodb
-    if (this.client) return this.client; // nếu atr client đã tồn tại thì trả về k cần nối kết mới
-    this.client = await MongoClient.connect(uri); // nếu chưa connect thì gọi method connect của obj để connect
-    return this.client;
-  };
+  static async connect(uri) {
+    if (this.connection) return this.connection;
+    this.connection = await mongoose.connect(uri);
+    return this.connection;
+  }
 }
 
 module.exports = MongoDB;

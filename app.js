@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors"); //midleware cho phép app chấp nhận req từ các nguồn khác nhau
 const ApiError = require("./app/api-error");
+const typeRouter = require("./app/routes/type.route.js");
+const roleRouter = require("./app/routes/role.route.js");
+
 const app = express();
 
 app.use(cors());
@@ -9,6 +12,9 @@ app.use(express.json()); // chuyển đổi Json trong body của req sang đố
 app.get("/", (req, res) => {
   res.json({ message: "Wellcome to playhouse application" });
 });
+
+app.use("/api/types", typeRouter);
+app.use("/api/roles", roleRouter);
 
 app.use((req, res, next) => {
   //code ở đây sẽ chạy khoong có route nào được định nghĩa khớp với req, gọi next() để chuyển sang midleware xử lý lỗi
