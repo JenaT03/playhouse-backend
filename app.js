@@ -3,6 +3,7 @@ const cors = require("cors"); //midleware cho phép app chấp nhận req từ c
 const ApiError = require("./app/api-error");
 const typeRouter = require("./app/routes/type.route.js");
 const roleRouter = require("./app/routes/role.route.js");
+const accountRouter = require("./app/routes/account.route.js");
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/types", typeRouter);
 app.use("/api/roles", roleRouter);
+app.use("/api/accounts", accountRouter);
 
 app.use((req, res, next) => {
   //code ở đây sẽ chạy khoong có route nào được định nghĩa khớp với req, gọi next() để chuyển sang midleware xử lý lỗi
