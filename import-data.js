@@ -3,8 +3,8 @@ const fs = require("fs");
 require("dotenv").config({ path: ".env" });
 
 // Modify the path to your model file as needed
-const model = require("./app/models/feedback.model.js");
-const file = "data/feedback.data.json";
+const model = require("./app/models/play.model.js");
+const file = "data/play.data.json";
 
 async function importFromFile() {
   try {

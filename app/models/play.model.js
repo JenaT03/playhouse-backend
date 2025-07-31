@@ -30,6 +30,9 @@ const playSchema = new mongoose.Schema(
     typeIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "Type", required: true },
     ],
+    actorIds: [
+      { type: mongoose.Schema.Types.ObjectId, ref: "Actor", required: true },
+    ],
   },
   {
     timestamps: { createdAt: "create_At", updatedAt: "update_At" },

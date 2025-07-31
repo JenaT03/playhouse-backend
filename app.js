@@ -4,6 +4,11 @@ const ApiError = require("./app/api-error");
 const typeRouter = require("./app/routes/type.route.js");
 const roleRouter = require("./app/routes/role.route.js");
 const accountRouter = require("./app/routes/account.route.js");
+const userProfileRouter = require("./app/routes/user-profile.route.js");
+const audienceRouter = require("./app/routes/audience.route.js");
+const staffRouter = require("./app/routes/staff.route.js");
+const actor = require("./app/routes/actor.route.js");
+const playRouter = require("./app/routes/play.route.js");
 
 const app = express();
 
@@ -17,6 +22,11 @@ app.get("/", (req, res) => {
 app.use("/api/types", typeRouter);
 app.use("/api/roles", roleRouter);
 app.use("/api/accounts", accountRouter);
+app.use("/api/user-profiles", userProfileRouter);
+app.use("/api/audiences", audienceRouter);
+app.use("/api/staffs", staffRouter);
+app.use("/api/actors", actor);
+app.use("/api/plays", playRouter);
 
 app.use((req, res, next) => {
   //code ở đây sẽ chạy khoong có route nào được định nghĩa khớp với req, gọi next() để chuyển sang midleware xử lý lỗi
