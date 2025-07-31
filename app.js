@@ -11,6 +11,8 @@ const actor = require("./app/routes/actor.route.js");
 const playRouter = require("./app/routes/play.route.js");
 const feedbackRouter = require("./app/routes/feedback.route.js");
 const rowRouter = require("./app/routes/row.route.js");
+const seatRouter = require("./app/routes/seat.route.js");
+const seatStatusRouter = require("./app/routes/seat-status.route.js");
 
 const app = express();
 
@@ -31,6 +33,8 @@ app.use("/api/actors", actor);
 app.use("/api/plays", playRouter);
 app.use("/api/feedbacks", feedbackRouter);
 app.use("/api/rows", rowRouter);
+app.use("/api/seats", seatRouter);
+app.use("/api/seat-statuses", seatStatusRouter);
 
 app.use((req, res, next) => {
   //code ở đây sẽ chạy khoong có route nào được định nghĩa khớp với req, gọi next() để chuyển sang midleware xử lý lỗi
