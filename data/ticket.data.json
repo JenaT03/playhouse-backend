@@ -1,32 +1,36 @@
 [
 {
     "code": "23HUHIH",
-    "status": "unused",
+    "status": "available",
     "price" : "200000",
     "qr": "https://example.com/qr/23HUHIH",
-    "buyer": "6883128795717ad397568064",
-    "soldBy": "6883127d442bb602a0cca362",
-    "isActive": true
+    "buyer": "688240c0177718c71d35756a",
+    "isActive": true,
+    "showId": "688b88e67d769289d560b52a",
+    "seat": "688b88e67d769289d560b52d"
 },
 {
     "code": "24HUHIH",
     "status": "used",
     "price" : "200000",
     "qr": "https://example.com/qr/23HUHIH",
-    "soldBy": "6883127d442bb602a0cca362",
+    "soldBy": "68830f8bf7b1537579fa2a6f",
     "isActive": true,
+    "showId": "688b88e67d769289d560b52a",
     "guestInfo": {
         "name": "Nguyễn Văn A",
         "phone": "0123456789"
-    }
+    },
+    "seat": "688b88e67d769289d560b52d"
 },
 {
     "code": "27OUHIH",
-    "status": "expried",
+    "status": "expired",
     "price" : "200000",
     "qr": "https://example.com/qr/23HUHIH",
-    "buyer": "6883128795717ad397568064",
-    "soldBy": "688240c0177718c71d35756b",
-    "isActive": true
+    "buyer": "688240c0177718c71d35756a",
+    "isActive": true,
+    "showId": "688b88e67d769289d560b52a",
+    "seat": "688b88e67d769289d560b52d"
 }
 ]

@@ -27,19 +27,26 @@ const ticketSchema = new mongoose.Schema(
     },
     buyer: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "UserInfo",
-      required: true,
+      ref: "UserProfile",
     },
-    soldBy: { type: mongoose.Schema.Types.ObjectId, ref: "UserInfo" },
+    soldBy: { type: mongoose.Schema.Types.ObjectId, ref: "Account" },
     guestInfo: {
       name: {
         type: String,
-        required: true,
       },
       phone: {
         type: String,
-        required: true,
       },
+    },
+    showId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Show",
+      required: true,
+    },
+    seat: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "SeatStatus",
+      required: true,
     },
   },
   {
